@@ -5,15 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000">
 
 <de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/profileImg"
     android:layout_width="150dp"
     android:layout_height="150dp"
-    android:src="@drawable/baseball_icon"
-    app:civ_border_color="#00FFFF"
-    app:civ_border_width="5dp"
-    />
+    android:src="@drawable/domino_logo"
+    app:civ_border_color="#858ADD"
+    app:civ_border_width="5dp"/>
 
 
 
