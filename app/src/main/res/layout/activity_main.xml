@@ -18,6 +18,13 @@
     app:civ_border_width="5dp"/>
 
 
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화걸기 (010-6331-3939)"/>
+
 
 
 </LinearLayout>
